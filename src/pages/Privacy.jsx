@@ -1,12 +1,15 @@
 import React from 'react';
+import ScrollReveal from '../components/ui/ScrollReveal';
 
 const Privacy = () => {
     return (
         <div className="container mx-auto px-6 py-20">
         <div className="max-w-4xl mx-auto">
+            <ScrollReveal animation="fade-up" delay={0.2}>
             <h1 className="text-5xl font-bold mb-8 text-gray-900 dark:text-white">
             Politique de Confidentialité
             </h1>
+            </ScrollReveal>
             
             <div className="bg-white dark:bg-gray-800 rounded-3xl p-8 shadow-lg space-y-8">
             <section>

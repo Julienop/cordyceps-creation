@@ -5,7 +5,7 @@ export const navigation = [
     { id: 'realisations', label: 'Réalisations', path: '/realisations' },
     { id: 'prestations', label: 'Prestations', path: '/prestations' },
     { id: 'apropos', label: 'À propos', path: '/a-propos' },
-    { id: 'contact', label: 'Contact', path: '/contact' }
+    { id: 'contact', label: 'Contact', path: '/contact' },
     ];
 
     export const footerLinks = [
