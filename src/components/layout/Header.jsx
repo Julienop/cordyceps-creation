@@ -35,7 +35,7 @@ const Header = ({ darkMode, setDarkMode }) => {
                     `font-semibold transition-colors ${
                         isActive
                         ? 'text-cordyceps-600 dark:text-cordyceps-500'
-                        : 'text-gray-700 dark:text-gray-300 hover:text-cordyceps-600 dark:hover:text-cordyceps-500'
+                        : 'text-gray-700 dark:text-gray-300 hover:text-cordyceps-400 dark:hover:text-cordyceps-300'
                     }`
                     }
                 >
@@ -88,7 +88,7 @@ const Header = ({ darkMode, setDarkMode }) => {
                     className={({ isActive }) =>
                     `block w-full text-left py-3 px-4 rounded-lg transition-colors ${
                         isActive
-                        ? 'bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 font-semibold'
+                        ? 'bg-cordyceps-300 dark:bg-cordyceps-600 text-white dark:text-white font-semibold'
                         : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
                     }`
                     }

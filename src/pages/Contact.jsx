@@ -140,7 +140,7 @@ const Contact = () => {
                         <div className="bg-gradient-to-br from-cordyceps-500 to-cordyceps-700 rounded-3xl p-8 text-white">
                             <h3 className="text-2xl font-bold mb-4">Délais de réponse</h3>
                             <p className="mb-4">
-                                Je m'engage à vous répondre dans les <strong>48 heures</strong> suivant votre demande.
+                                Je m'engage à vous répondre dans les plus brefs délais suivant votre demande.
                             </p>
                             <p className="text-sm opacity-90">
                                 Pour les projets urgents, n'hésitez pas à le mentionner dans votre message.
@@ -201,7 +201,7 @@ const Contact = () => {
                                 <div className="flex items-center gap-3 bg-green-50 dark:bg-green-900/20 border-2 border-green-500 text-green-700 dark:text-green-400 px-4 py-3 rounded-xl">
                                     <CheckCircle className="w-5 h-5 flex-shrink-0" />
                                     <p className="text-sm font-semibold">
-                                        Message envoyé avec succès ! Je vous répondrai dans les 48h.
+                                        Message envoyé avec succès ! Je vous répondrai dans les plus brefs délais.
                                     </p>
                                 </div>
                             )}

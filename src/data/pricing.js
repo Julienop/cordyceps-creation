@@ -1,8 +1,8 @@
 export const pricingPlans = [
     {
         name: "Starter",
-        price: "690€",
-        oldPrice: "990€",
+        price: "990€",
+        oldPrice: null,
         description: "Parfait pour démarrer votre présence en ligne",
         features: [
         "Site vitrine 1-5 pages",

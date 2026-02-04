@@ -3,6 +3,7 @@
 export const navigation = [
     { id: 'accueil', label: 'Accueil', path: '/' },
     { id: 'realisations', label: 'Réalisations', path: '/realisations' },
+    { id: 'press', label: 'Presse', path: '/press' },
     { id: 'prestations', label: 'Prestations', path: '/prestations' },
     { id: 'apropos', label: 'À propos', path: '/a-propos' },
     { id: 'contact', label: 'Contact', path: '/contact' },

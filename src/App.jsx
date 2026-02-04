@@ -13,6 +13,7 @@ import About from './pages/About';
 import LegalNotice from './pages/LegalNotice';
 import Privacy from './pages/Privacy';
 import PrivacyCuisinEssentiel from './pages/PrivacyCuisinEssentiel';
+import Press from './pages/Press';
 import NotFound from './pages/NotFound';
 
 
@@ -40,6 +41,7 @@ const App = () => {
               <Route path="/prestations" element={<Services />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/a-propos" element={<About />} />
+              <Route path="/press" element={<Press />} />
               <Route path="/mentions-legales" element={<LegalNotice />} />
               <Route path="/confidentialite" element={<Privacy />} />
               <Route path="/privacy-cuisinessentiel" element={<PrivacyCuisinEssentiel />} />
